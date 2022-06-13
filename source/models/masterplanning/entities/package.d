@@ -1,1 +1,1 @@
-
+module models.masterplanning.entities;
