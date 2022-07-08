@@ -15,7 +15,7 @@ class DProductAllocationLineEntity : DOOPEntity {
       .registerPath("applications_productallocations.lines");
   }
 }
-mixin(EntityCalls!("AccountEntity"));
+mixin(EntityCalls!("ProductAllocationLineEntity"));
 
 version(uim_entities) {
   unittest {
