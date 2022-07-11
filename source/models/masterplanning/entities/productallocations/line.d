@@ -17,7 +17,7 @@ class DProductAllocationLineEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ProductAllocationLineEntity"));
 
-version(uim_entities) {
+version(test_model_masterplanning) {
   unittest {
     assert(ProductAllocationLineEntity);
   
