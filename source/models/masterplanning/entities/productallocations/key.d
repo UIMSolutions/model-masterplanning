@@ -1,7 +1,7 @@
 module models.masterplanning.entities.productallocations.key;
 
-@safe:
 import models.masterplanning;
+@safe:
 
 class DProductAllocationKeyEntity : DEntity {
   mixin(EntityThis!("ProductAllocationKeyEntity"));
