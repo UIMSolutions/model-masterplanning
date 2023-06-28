@@ -3,7 +3,7 @@ module models.masterplanning.entities.productallocations.line;
 @safe:
 import models.masterplanning;
 
-class DProductAllocationLineEntity : DOOPEntity {
+class DProductAllocationLineEntity : DEntity {
   mixin(EntityThis!("ProductAllocationLineEntity"));
   
   override void initialize() {

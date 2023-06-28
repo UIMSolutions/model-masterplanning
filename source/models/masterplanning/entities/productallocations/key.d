@@ -3,7 +3,7 @@ module models.masterplanning.entities.productallocations.key;
 @safe:
 import models.masterplanning;
 
-class DProductAllocationKeyEntity : DOOPEntity {
+class DProductAllocationKeyEntity : DEntity {
   mixin(EntityThis!("ProductAllocationKeyEntity"));
   
   override void initialize() {
